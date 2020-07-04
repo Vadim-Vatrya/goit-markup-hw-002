@@ -88,3 +88,50 @@ body {
 .modal-btn:hover {
   background-color: var(--secondary-accent-color);
 }
+
+/* Advantages */
+
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+.title {
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.decoration {
+  color: var(--primary-text-color);
+}
+
+/*  Working*/
+
+.working-list-item {
+  font-weight: bold;
+  line-height: 1.14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+/* Our team */
+
+.title-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+.team-title-position {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--primary-text-color);
+}
