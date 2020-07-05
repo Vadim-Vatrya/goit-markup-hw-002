@@ -1,4 +1,4 @@
-:root {
+/* :root { 
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
   --accent-color: #2196f3;
@@ -7,10 +7,10 @@
   --secondary-white-color: #e0dfe6;
   --primary-bcg-color: #2f303a;
 }
-
+/*  */
 body {
   background-color: #ffffff;
-  color: var(--primary-text-color);
+  color: #757575;
 }
 .link {
   text-decoration: none;
@@ -27,20 +27,24 @@ body {
 }
 
 .logo .header {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .site-nav .site-nav-list {
-  color: var(--secondary-text-color);
+  color: #212121;
 }
 
 .site-nav .link.current {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
+}
+
+.auth-nav .auth-nav-list {
+    color: #757575;
 }
 
 /* Hero */
@@ -56,4 +60,18 @@ body {
 
   .modal-btn:hover {
   background-color: var(--secondary-accent-color);
+}
+
+/* Advantages */
+
+.section-title {
+  color: var(--secondary-text-color);
+}
+
+.title {
+  color: var(--secondary-text-color);
+}
+
+.decoration {
+  color: var(--primary-text-color);
 }
