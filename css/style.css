@@ -27,7 +27,7 @@ body {
 }
 
 .logo .header {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .site-nav .site-nav-list {
@@ -35,12 +35,12 @@ body {
 }
 
 .site-nav .link.current {
-  color: #2196f3;
+   color: var(--accent-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+   color: var(--accent-color);
 }
 
 .auth-nav .auth-nav-list {
@@ -49,7 +49,7 @@ body {
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-  color: #2196f3;
+   color: var(--accent-color);
 }
 
 /* Hero */
@@ -60,7 +60,7 @@ body {
 
 .modal-btn {
   font-family: inherit;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   color: var(--primary-text-color);
 }
 
@@ -104,7 +104,7 @@ body {
   color: #ccbaba;
 }
 .footer {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .mail,
@@ -115,12 +115,12 @@ body {
 
 .mail:hover,
 .mail:focus {
-  color: #2196f3;
+   color: var(--accent-color);
 }
 
 .phone:hover,
 .phone:focus {
-  color: #2196f3;
+   color: var(--accent-color);
 }
 
 .map {
@@ -139,7 +139,7 @@ body {
 
 .button-filtr:hover,
 .button-filtr:focus {
-  color: #2196f3;
+   color: var(--accent-color);
 }
 
 .card-list .card-list-item {
