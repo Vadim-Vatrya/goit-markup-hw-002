@@ -35,12 +35,12 @@ body {
 }
 
 .site-nav .link.current {
-   color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-   color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .auth-nav .auth-nav-list {
@@ -49,13 +49,13 @@ body {
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-   color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* Hero */
 
 .hero-item {
-  color: #ccbaba;
+  color: var(--primary-white-color);
 }
 
 .modal-btn {
@@ -65,13 +65,13 @@ body {
 }
 
 .modal-btn:hover {
-  background-color: #188ce8;
+  background-color: var(--secondary-accent-color);
 }
 
 /* Advantages */
 
 .section-title {
- color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 
 .title {
@@ -84,7 +84,7 @@ body {
 /*  Working*/
 
 .working-list-item {
-  color: #ccbaba;
+  color: var(--primary-white-color);
 }
 
 /* Our team */
@@ -101,7 +101,7 @@ body {
 /* footer */
 
 .footer-section .logo {
-  color: #ccbaba;
+  color: var(--primary-white-color);
 }
 .footer {
   color: var(--accent-color);
@@ -115,40 +115,41 @@ body {
 
 .mail:hover,
 .mail:focus {
-   color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .phone:hover,
 .phone:focus {
-   color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .map {
   font-style: normal;
-  color: #ccbaba;
+  color: var(--primary-white-color);
 }
 .footer-section .title {
-  color: #ccbaba;
+  color: var(--primary-white-color);
 }
 /* portfolio */
 
 .button-filtr {
   color: var(--secondary-text-color);
-  background-color: #e0dfe6;
+  background-color: var(--secondary-white-color);
 }
 
 .button-filtr:hover,
 .button-filtr:focus {
-   color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .card-list .card-list-item {
- color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
+}
 
 .card-list .text {
   color: var(--primary-text-color);
 }
 
 .card-list .text-popup {
-  color: #ccbaba;
+  color: var(--primary-white-color);
 }
