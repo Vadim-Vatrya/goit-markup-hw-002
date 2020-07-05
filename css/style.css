@@ -86,3 +86,13 @@ body {
 .working-list-item {
   color: #ccbaba;
 }
+
+/* Our team */
+
+.title-name {
+  color: #212121;
+}
+
+.team-title-position {
+  color: #757575;
+}
