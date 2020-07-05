@@ -122,10 +122,17 @@ body {
 /* Our team */
 
 .title-name {
+  ont-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
   color: var(--secondary-text-color);
 }
 
 .team-title-position {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
   color: var(--primary-text-color);
 }
 /* Clients */
