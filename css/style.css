@@ -41,6 +41,7 @@ body {
 
 .site-nav .site-nav-list {
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
@@ -57,6 +58,7 @@ body {
 
 .auth-nav .auth-nav-list {
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -101,6 +103,7 @@ body {
 
 .title {
   font-weight: bold;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--secondary-text-color);
@@ -113,6 +116,7 @@ body {
 
 .working-list-item {
   font-weight: bold;
+  font-size: 14px;
   line-height: 1.14px;
   text-align: center;
   text-transform: uppercase;
