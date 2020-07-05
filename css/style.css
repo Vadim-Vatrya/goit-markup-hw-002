@@ -11,6 +11,10 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .link {
   text-decoration: none;
@@ -23,6 +27,11 @@ body {
 /* header */
 
 .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: #000000;
 }
 
@@ -31,6 +40,9 @@ body {
 }
 
 .site-nav .site-nav-list {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 
@@ -44,6 +56,9 @@ body {
 }
 
 .auth-nav .auth-nav-list {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 
