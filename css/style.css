@@ -29,3 +29,31 @@ body {
 .logo .header {
   color: var(--accent-color);
 }
+
+.site-nav .site-nav-list {
+  color: var(--secondary-text-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-item {
+  color: var(--primary-white-color);
+}
+
+.modal-btn {
+  font-family: inherit;
+  background-color: var(--accent-color);
+  color: var(--primary-text-color);
+
+  .modal-btn:hover {
+  background-color: var(--secondary-accent-color);
+}
