@@ -92,10 +92,17 @@ body {
 /* Advantages */
 
 .section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
   color: var(--secondary-text-color);
 }
 
 .title {
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
   color: var(--secondary-text-color);
 }
 
