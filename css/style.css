@@ -149,6 +149,7 @@ body {
 .mail,
 .phone {
   font-style: normal;
+  line-height: 1.71px;
   color: var(--primary-text-color);
 }
 
@@ -167,6 +168,8 @@ body {
   color: var(--primary-white-color);
 }
 .footer-section .title {
+  font-weight: bold;
+  text-transform: uppercase;
   color: var(--primary-white-color);
 }
 /* portfolio */
