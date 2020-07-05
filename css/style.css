@@ -44,39 +44,45 @@ body {
 }
 
 .auth-nav .auth-nav-list {
-    color: #757575;
+  color: #757575;
 }
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-  color: var(--accent-color);
+  color: #2196f3;
 }
 
 /* Hero */
 
 .hero-item {
-  color: var(--primary-white-color);
+  color: #ccbaba;
 }
 
 .modal-btn {
   font-family: inherit;
-  background-color: var(--accent-color);
-  color: var(--primary-text-color);
+  background-color: #2196f3;
+  color: #757575;
+}
 
-  .modal-btn:hover {
-  background-color: var(--secondary-accent-color);
+.modal-btn:hover {
+  background-color: #188ce8;
 }
 
 /* Advantages */
 
 .section-title {
-  color: var(--secondary-text-color);
+  color: #212121;
 }
 
 .title {
-  color: var(--secondary-text-color);
+  color: #212121;
 }
 
 .decoration {
-  color: var(--primary-text-color);
+  color: #757575;
+}
+/*  Working*/
+
+.working-list-item {
+  color: #ccbaba;
 }
