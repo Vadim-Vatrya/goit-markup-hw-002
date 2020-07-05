@@ -1,6 +1,16 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-accent-color: #188ce8;
+  --primary-white-color: #ccbaba;
+  --secondary-white-color: #e0dfe6;
+  --primary-bcg-color: #2f303a;
+}
+
 body {
   background-color: #ffffff;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .link {
   text-decoration: none;
@@ -8,3 +18,14 @@ body {
 
 .list {
   list-style: none;
+}
+
+/* header */
+
+.logo {
+  color: #000000;
+}
+
+.logo .header {
+  color: var(--accent-color);
+}
